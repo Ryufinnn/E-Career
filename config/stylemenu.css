@@ -1,0 +1,29 @@
+
+/* Horizontal menu */
+#menu{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background: -moz-linear-gradient(top,  #1593b3 20%, #137188 100%); 
+  margin-top:-10px;
+}
+#menu ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+} 
+#menu ul li{
+  float:left; 
+  position: relative;
+}
+#menu ul li a{
+  float: left;
+  color: #FFFFFF;
+  padding: 10px;
+  border-right: 1px solid #339bb5;
+  text-decoration: none;
+  display: block;
+}
+#menu ul li a:hover{
+background: -moz-linear-gradient(top, #137188 20%, #1593b3 100%);
+}
